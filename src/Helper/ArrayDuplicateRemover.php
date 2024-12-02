@@ -2,6 +2,9 @@
 
 namespace App\Helper;
 
+/**
+ *  Helper that removes all duplicate values from the array while preserving the original order
+ */
 final class ArrayDuplicateRemover
 {
     public function remove(array $words): array
