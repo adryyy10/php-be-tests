@@ -2,7 +2,10 @@
 
 namespace App\Helper;
 
-class StringReverser
+/**
+ * Reverses a string without using strrev() function
+ */
+final class StringReverser
 {
     public function reverse(string $stringToReverse): string
     {
